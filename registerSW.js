@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/k-signature-app/sw.js', { scope: '/k-signature-app/' })})}
